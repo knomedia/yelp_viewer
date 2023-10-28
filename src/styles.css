@@ -1,0 +1,15 @@
+.YelpViewer {
+  --yelp-grey: #CCCCCC;
+  --yelp-one: #F2BD79;
+  --yelp-two: #FEC011;
+  --yelp-three: #FF9242;
+  --yelp-four: #F15C4F;
+  --yelp-five: #D32323;
+  .YelpStars {
+    display: inline-block;
+  }
+  .YelpLink {
+    display: inline-block;
+    margin-left: 10px;
+  }
+}

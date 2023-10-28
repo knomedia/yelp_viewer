@@ -1,0 +1,48 @@
+.YelpStar {
+  width: 30px;
+  height: 30px;
+  margin-right: 3px;
+  rect {
+    fill: var(--yelp-grey);
+  }
+  &__Half {
+    display: none;
+    fill: var(--yelp-grey);
+  }
+}
+.YelpStar__Active {
+  rect {
+    fill: var(--yelp-grey);
+  }
+}
+.YelpStar__Active__1 {
+  rect {
+    fill: var(--yelp-one);
+  }
+}
+.YelpStar__Active__2 {
+  rect {
+    fill: var(--yelp-two);
+  }
+}
+.YelpStar__Active__3 {
+  rect {
+    fill: var(--yelp-three);
+  }
+}
+.YelpStar__Active__4 {
+  rect {
+    fill: var(--yelp-four);
+  }
+}
+.YelpStar__Active__5 {
+  rect {
+    fill: var(--yelp-five);
+  }
+}
+.YelpStar__Partial {
+  .YelpStar__Half {
+    display: inline;
+    fill: var(--yelp-grey);
+  }
+}
