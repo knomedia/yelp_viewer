@@ -15,6 +15,13 @@ npm run tests
 
 ## Usage
 
+
+Install
+
+```sh
+npm install --save-dev yelp_viewer
+```
+
 ```jsx
 <YelpViewer rating={rating}
             count={count}
